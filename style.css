@@ -1,0 +1,37 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-clr{
+    background-color: black;
+}
+ul{
+    list-style: none;
+}
+.offcanvas-top{
+    height: 100vh !important;
+}
+.container-fluid.fullBgImage {
+    padding: 0 !important;
+    margin: 0 !important; 
+}
+.accordion-button{
+    background-color: black !important;
+}
+.accordion-body{
+    background-color: black !important;
+}
+
+
+.navbar-nav .nav-link:hover{
+    color: blueviolet !important;
+}
+
+@media (max-width: 767px){
+    .footer-last-links{
+        font-size: 12px;
+    }
+}
+
